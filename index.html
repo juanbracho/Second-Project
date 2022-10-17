@@ -29,7 +29,7 @@
                     Hi, I'm <span>Juan Bracho.</span>
                 </h1>
                 <h1>Lawyer and web developer.</h1>
-                <p>I am a Venezuelan Lawyer finishing a Master's in Corporate Law in Buenos Aires, Argentina. I have
+                <p>I am a Venezuelan Lawyer finishing a Master's in Business Law in Buenos Aires, Argentina. I have
                     recently moved to the US and have dedicated my time to improving my knowledge and skills in areas
                     like Data Analysis, Web Development, and Software IP Law.
                 </p>
@@ -60,7 +60,7 @@
                         it was time for me to leave the country due to how difficult it
                         was becoming to live there. I chose to move to Buenos Aires, Argentina where I had many close
                         friends and knew I could further pursue my
-                        education. There, I decided to start a Master of Arts in Corporate Law to be able to better
+                        education. There, I decided to start a Master of Arts in Business Law to be able to better
                         understand business law. In my time in Argentina,
                         I found it was difficult as an immigrant to find opportunities to practice law. Instead of being
                         discouraged, I used the opportunity to
@@ -83,7 +83,7 @@
                     <div class="about-item">
                         <div class="about-text">
                             <p class="large-text">Master of Arts</p>
-                            <p class="small-text">Corporate<br />Law</p>
+                            <p class="small-text">Business<br />Law</p>
                         </div>
                     </div>
                     <div class="about-item">
@@ -211,6 +211,14 @@
                     <div class="timeline-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
+                    <p class="timeline-duration">2022-Today</p>
+                    <h5>ECC Retention II Specialist<span> - State Farm</span></h5>
+                    <p>Richardson, TX.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
                     <p class="timeline-duration">2019-2020</p>
                     <h5>Store Manager<span> - Mascotas de la Abadia</span></h5>
                     <p>Buenos Aires, Argentina.</p>
@@ -247,6 +255,17 @@
             </div>
             <div class="experiences">
                 <div class="experience-item">
+                    <div class="experience-text">
+                        <p class="experience-title">ECC Retention II Specialist | <span>August 2022 - Today</span><br />State Farm, Richardson, TX.</p>
+                        <ul class="exp-description">
+                            <li>
+                                Conducted client changes to policies and questions in English and Spanish.
+                            </li>
+                            <li>
+                                Performed changes to additions, and reinstatements of Auto and Fire Policies.
+                            </li>
+                        </ul>
+                    </div>
                     <div class="experience-text">
                         <p class="experience-title">Project Administrator | <span>October 2020 - September
                                 2021</span><br />Avaya. Buenos Aires, Argentina.</p>
@@ -327,7 +346,7 @@
                     <img src="UADE.jpg" alt="">
                     <div class="education-text">
                         <h4>
-                            Master of Arts in Corporate Law
+                            Master of Arts in Business Law
                         </h4>
                         <p>
                             <a href="https://www.uade.edu.ar/sites/business-school/maestrias-y-doctorado/maestria-en-derecho-empresarial-made/plan-de-estudios/"
@@ -450,21 +469,23 @@
                     </div>
                 </div>
                 <div class="right-contact">
-                    <form action="mailto:jdbrachoavila@gmail.com" method="post" enctype="text/plain"
+                    <form action="contactform.php" method="post"
                         class="contact-form">
                         <div class="input-control text-email">
-                            <input type="text" required placeholder="Your Name">
-                            <input type="email" required placeholder="Your Email">
+                            <input type="text" name="name" placeholder="Your Name">
+                            <input type="text" name="email" placeholder="Your Email">
                         </div>
                         <div class="input-control">
-                            <input type="text" required placeholder="Subject">
+                            <input type="text" name="subject" placeholder="Subject">
                         </div>
                         <div class="input-control">
                             <textarea name="message" id="" cols="30" rows="10" placeholder="Type here"></textarea>
                         </div>
                         <div class="submit-btn">
-                            <span class="btn-text">Submit</span>
-                            <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span>
+                            <button type="submit" name="submit">
+                                <span class="btn-text">Send Email</span>
+                                <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span> 
+                            </button>
                         </div>
                     </form>
                 </div>
